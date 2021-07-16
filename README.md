@@ -2,7 +2,7 @@
 
 Assumptions: These scripts work perfectly fine with the following assumptions.
 1. Already App gateway is running in the Production and there is backup App gateway in a failover region in a passive mode(which is not live).
-2. Service principal is given the right privileges to access the configurations for App gateway, Azure storage account and Azure Automation Accounts.
+2. Service principal is assigned with right privileges to access the configurations for App gateway, Azure storage account and Azure Automation Accounts.
 3. These scripts are run through Azure Automation Accounts using RunAsConnection. So, make sure you have Azure Account with RunAsConnection.
 4. These scripts assume right Azure modules are imported into modules gallery.
 
