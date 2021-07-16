@@ -29,7 +29,7 @@
 
 
 #Requires -Modules Az.Accounts, Az.Network
-#requires -Version 5.1
+#Requires -Version 5.1
 
 # Ensures you do not inherit an AzContext in your runbook
 Disable-AzContextAutosave -Scope Process
